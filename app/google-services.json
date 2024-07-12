@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1021265905251",
+    "project_id": "bmweb-14365",
+    "storage_bucket": "bmweb-14365.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021265905251:android:b458c1f5b8e924c88d9a56",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCk0ZtRAA6A9-Bdpe4e9Q28Ay4B9h7CeQw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

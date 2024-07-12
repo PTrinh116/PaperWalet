@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1EFF7">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/appCompatButton"
+        style="@android:style/Widget.Button"
+        android:layout_width="114dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_backround_white"
+        android:drawableTop="@drawable/mua_sam"
+        android:gravity="center_horizontal"
+        android:onClick="the_mua_sam"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:text="Thẻ Thành  viên mua  sắm"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColorLink="#3182BD"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatButton" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/appCompatButton"
+        style="@android:style/Widget.Button"
+        android:layout_width="114dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_backround_white"
+        android:drawableTop="@drawable/y_te"
+        android:gravity="center_horizontal"
+        android:onClick="the_y_te"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:text="Thẻ Bảo  hiểm y tế"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColorLink="#3182BD"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatButton" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Loại thẻ"
+        android:textColor="#000000"
+        android:textColorLink="#000000"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/view"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/appCompatButton"
+        style="@android:style/Widget.Button"
+        android:layout_width="114dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="276dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_backround_white"
+        android:drawableTop="@drawable/bang_lai_xe"
+        android:gravity="center_horizontal"
+        android:onClick="bang_lai_xe"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:text="Bằng lái xe"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColorLink="#3182BD"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/appCompatButton"
+        style="@android:style/Widget.Button"
+        android:layout_width="114dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_backround_white"
+        android:drawableTop="@drawable/id"
+        android:gravity="center_horizontal"
+        android:onClick="cccd"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:text="Căn cước công dân"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColorLink="#3182BD"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/appCompatButton"
+        style="@android:style/Widget.Button"
+        android:layout_width="114dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="276dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_backround_white"
+        android:drawableTop="@drawable/khac"
+        android:gravity="center_horizontal"
+        android:onClick="khac"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:text="Loại khác"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColorLink="#3182BD"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatButton" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/appCompatButton"
+        style="@android:style/Widget.Button"
+        android:layout_width="114dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_backround_white"
+        android:drawableTop="@drawable/the_ngan_hang"
+        android:gravity="center_horizontal"
+        android:onClick="bank"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:text="Thẻ ngân hàng"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColorLink="#3182BD"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="415dp"
+        android:layout_height="267dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="413dp"
+        android:layout_height="75dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="48dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:onClick="user"
+        app:layout_constraintStart_toStartOf="@+id/view2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/avatar" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="User"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view2"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:backgroundTint="@color/blue"
+        android:onClick="add"
+        android:text="Thêm thẻ"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view" />
+</androidx.constraintlayout.widget.ConstraintLayout>
